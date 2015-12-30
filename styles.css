@@ -1,13 +1,41 @@
-body{
-/*	background-color: #000000*/
+html{
+	height:100%;
+	width:100%;
 }
-
+body{
+	height:100%;
+	width:100%;
+	background-color: #000000
+}
 .title_banner{
 	text-align: center;
+	color:white;
+	font-size: 40px;
 }
-
-.nav_bar li{
-	display: inline-block;
+.nav_bar{
+	color:white;
+}
+.home{
+	width:25%;
+	float:left;
+	background-color: #33cccc;
 	text-align: center;
-	max-width:20%;
+}
+.magic{
+	width:25%;
+	float:left;
+	background-color: #33cccc;
+	text-align: center;
+}
+.collectibles{
+	width:25%;
+	float:left;
+	background-color: #33cccc;
+	text-align: center;
+}
+.contact{
+	width:25%;
+	float:left;
+	background-color: #33cccc;
+	text-align: center;
 }
