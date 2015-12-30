@@ -68,7 +68,15 @@ body{
 	display: inline-block;
 	color:white;
 	width:25%;
+	font-size: 20px;
+	background-color: gray;
+	border-radius: 12px;
+	padding:8px;
 }
+/*.indextext p{
+	overflow: scroll;
+	height:200px;
+}*/
 .leftp{
 	display: inline-block;
 	float:left;
@@ -84,17 +92,26 @@ body{
 	width:50%;
 	float:right;
 	margin-right: 40px;
+	margin-top:70px;
+	border-radius: 10px;
 }
 
 /* Magic Page styling begins here */
 
+.seller_links p{
+	text-align: center;
+	color:white;
+	font-size: 40px;
+}
+
 .ebay img{
-	width:50%;
+	width:47%;
 	height:275px;
 	float:left;
 }
+
 .amazon img{
-	width:50%;
+	width:47%;
 	height:275px;
-	float:left;
+	float:right;
 }
