@@ -20,22 +20,53 @@ body{
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
+	font-size: 20px;
 }
 .magic{
 	width:25%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
+	font-size: 20px;
 }
 .collectibles{
 	width:25%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
+	font-size: 20px;
 }
 .contact{
 	width:25%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
+	font-size: 20px;
 }
+.bodycontent{
+	display: inline-block;
+}
+.indextext{
+	margin-top: 40px;
+	margin-left:100px;
+	display: inline-block;
+	color:white;
+	width:25%;
+}
+.leftp{
+	display: inline-block;
+	float:left;
+	margin: 0 auto;
+}
+.rightp{
+	display: inline-block;
+	float:right;
+	margin: 0 auto;
+}
+.indeximg{
+	width:50%;
+	float:right;
+	margin-right: 40px;
+}
+
+/* Magic Page styling begins here */
