@@ -13,35 +13,51 @@ body{
 	font-size: 40px;
 }
 .nav_bar{
-	color:white;
+	color:maroon;
 }
 .home{
 	width:25%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
+/*	border-radius: 10px;*/
+}
+.home a{
+	text-decoration: none;
 }
 .magic{
 	width:25%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
+/*	border-radius: 10px;*/
+}
+.magic a{
+	text-decoration: none;
 }
 .collectibles{
 	width:25%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
+/*	border-radius: 10px;*/
+}
+.collectibles a{
+	text-decoration: none;
 }
 .contact{
 	width:25%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
-	font-size: 20px;
+	font-size: 25px;
+/*	border-radius: 10px;*/
+}
+.contact a{
+	text-decoration: none;
 }
 .bodycontent{
 	display: inline-block;
@@ -62,6 +78,7 @@ body{
 	display: inline-block;
 	float:right;
 	margin: 0 auto;
+	padding-top: 30px;
 }
 .indeximg{
 	width:50%;
@@ -70,3 +87,14 @@ body{
 }
 
 /* Magic Page styling begins here */
+
+.ebay img{
+	width:50%;
+	height:275px;
+	float:left;
+}
+.amazon img{
+	width:50%;
+	height:275px;
+	float:left;
+}
