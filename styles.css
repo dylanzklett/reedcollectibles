@@ -7,6 +7,7 @@ body{
 	width:100%;
 	background-color: #000000
 }
+/*Homepage Styling begins here*/
 .title_banner{
 	text-align: center;
 	color:white;
@@ -16,7 +17,7 @@ body{
 	color:maroon;
 }
 .home{
-	width:25%;
+	width:20%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
@@ -27,7 +28,7 @@ body{
 	text-decoration: none;
 }
 .magic{
-	width:25%;
+	width:20%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
@@ -38,7 +39,7 @@ body{
 	text-decoration: none;
 }
 .collectibles{
-	width:25%;
+	width:20%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
@@ -49,7 +50,7 @@ body{
 	text-decoration: none;
 }
 .contact{
-	width:25%;
+	width:20%;
 	float:left;
 	background-color: #33cccc;
 	text-align: center;
@@ -57,6 +58,17 @@ body{
 /*	border-radius: 10px;*/
 }
 .contact a{
+	text-decoration: none;
+}
+.events{
+	width:20%;
+	float:left;
+	background-color: #33cccc;
+	text-align: center;
+	font-size: 25px;
+/*	border-radius: 10px;*/
+}
+.events a{
 	text-decoration: none;
 }
 .bodycontent{
@@ -115,3 +127,38 @@ body{
 	height:275px;
 	float:right;
 }
+
+/*Events Page styling begins here*/
+.calendar{
+	display: inline-block;
+}
+.calendar iframe{
+	margin-top:75px;
+	border-radius: 7px;
+}
+.cal_text{
+	background-color: gray;
+	color:white;
+	text-align: center;
+	border-radius: 7px;
+	max-width: 400px;
+	margin-top: 25px;
+	margin-right: 3%;
+	float:right;
+	display: inline-block;
+}
+.event_banner{
+	background-color: blue;
+	border-radius: 5px;
+}
+.noob{
+	color:yellow;
+}
+.weds{
+	background-color: blue;
+	border-radius: 5px;
+}
+/*.modern{
+	background-color: green;
+	border-radius: 5px;
+}*/
